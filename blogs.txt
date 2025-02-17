@@ -1,0 +1,156 @@
+
+This is a semi-public forum for participating in Ethereum’s research efforts, including but not limited to:
+
+Proof-of-Stake
+Scaling solutions
+EVM improvements
+Low-level protocol improvements
+Economics
+
+protocol economics
+Resource pricing economics
+
+
+Other second-level features
+
+This is not the place for:
+
+generic ethereum discussion.  For that visit r/ethereum.
+discussing specific EIPs.  For that visit the Ethereum Magicians forum.
+technical questions and ELI5s. For that visit the StackExchange.
+
+If your signal-to-noise ratio gets too low, you will be banned from ethresear.ch.  So please keep discussions information-rich.  Posting on this site is accepting releasing your submitted content into the public domain (CC0).
+Forum Features!
+1. LaTeX Equations
+This forum supports \LaTeX equations between $dollar signs$.  The default LaTeX style is the “inline” style which looks like \sum_{k=0}^n {n \choose k} = 2^n , in text this is
+$ \sum_{k=0}^n {n \choose k} = 2^n $
+
+However, if you start your equation with $$ on it’s own beginning and teminating line like,
+$$
+\sum_{k=0}^n {n \choose k} = 2^n
+$$
+
+it looks like this
+
+\sum_{k=0}^n {n \choose k} = 2^n
+
+
+2. Graphviz diagrams
+See the documentation for a list of examples to build your graph.
+[graphviz engine=dot]
+digraph {
+  concentrate=true;
+  a[color=red, style=filled, fillcolor=pink];
+  b[shape=diamond];
+  a -> b;
+  b -> c;
+  c -> a;
+  d -> c;
+  e -> c;
+  e -> a;
+  a -> e;
+}
+[/graphviz]
+
+
+
+
+
+
+a
+
+a
+
+
+
+b
+
+b
+
+
+
+a->b
+
+
+
+
+
+e
+
+e
+
+
+
+a->e
+
+
+
+
+
+
+c
+
+c
+
+
+
+b->c
+
+
+
+
+
+c->a
+
+
+
+
+
+d
+
+d
+
+
+
+d->c
+
+
+
+
+
+e->c
+
+
+
+
+
+
+3. YUML diagrams
+YUML diagrams allow making nice little graphs within your posts.
+They have an idiosyncratic but fairly simple markup language.
+Example:
+
+[yuml]
+[foo{bg:cornsilk}]--[baz]
+[foo]->[bar{bg:orange}]
+[baz]-.->[qux]
+[qux]--label>[bar]
+[/yuml]
+
+
+[yuml]
+[Vote Message|+Source hash;-Source height;+Target hash;-Target height|+Withdraw();+Last_commit]
+[/yuml]
+
+
+4. Images!
+Unsurprisingly, we also support images.
+u1614×800 57.9 KB
+
+Useful sites
+
+Ethereum dot org - https://ethereum.org/
+Upgrading Ethereum by Ben Edgington - https://eth2book.info/
+
+
+

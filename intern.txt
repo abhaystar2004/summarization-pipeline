@@ -1,0 +1,14 @@
+## https://ethresear.ch/
+
+
+---> https://ethresear.ch/latest.json
+
+
+# for scraping 
+id: topic, post_1
+class: cooked
+
+# to update
+
+no. of posts...
+if not then ---> pipeline
